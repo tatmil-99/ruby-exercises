@@ -21,10 +21,12 @@ end
 
 def last_three_elements(array)
   # return the last 3 elements of the array
+  array.last(3)
 end
 
 def add_element(array)
   # add an element (of any value) to the array
+  array << "val"
 end
 
 def remove_last_element(array)
