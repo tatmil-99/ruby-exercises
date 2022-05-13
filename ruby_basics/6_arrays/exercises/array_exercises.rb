@@ -5,8 +5,8 @@ def nil_array(number)
   number.times do
     arr << nil
   end
-  
-  return arr 
+
+  arr 
 end
 
 def first_element(array)
