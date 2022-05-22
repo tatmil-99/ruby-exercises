@@ -44,7 +44,7 @@ end
 # hint: use String#ord
 
 def ascii_code(string)
-  until string.length == 1
+  unless string.length == 1
     return "Input Error"
   end
 
